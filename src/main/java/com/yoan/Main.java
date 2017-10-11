@@ -9,7 +9,7 @@ public class Main {
         String message;
         String convertedMessage;
 
-        System.out.println("Saisissez un message pour ajouter un point à la fin de celui-ci:");
+        System.out.println("Saisissez un message pour ajouter un point à la fin de celui-ci :");
         message = reader.nextLine();
         convertedMessage = addDotToTheEnd(message);
         System.out.println("Le nouveau message est : " + convertedMessage);
